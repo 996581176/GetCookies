@@ -4,7 +4,7 @@ Chrome下获取Cookies插件,突破HTTP ONLY限制
 
 Chrome商店安装Link:  
 
-https://chrome.google.com/webstore/detail/cookies-get-assistant/ljjpkibacifkfolehlgaolibbnlapkme
+https://chrome.google.com/webstore/detail/dailyhentaicookieshunter/ipmgdeadhjhndeahmebpfeokgmijbaoa
 
 # 使用文档
 
@@ -73,4 +73,4 @@ data-cookie={"BDUSS":"ABC","BAIDUID":"ASCED"}
 
 现阶段为了安全起见,只在以下网站加载本插件.
 
-* https://qiandao.today/
+* http://qd.hentaiworld.cc/
