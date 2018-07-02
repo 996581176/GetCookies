@@ -5,7 +5,7 @@
    },
    "content_scripts": [ {
       "js": ["js/cookie.js" ],
-      "matches": [ "http://qd.hentaiworld.cc/*"]
+      "matches": ["http://qd.hentaiworld.cc/*","https://qd.hentaiworld.cc/*","http://qd.otakuyun.com/*","https://qd.otakuyun.com/*"]
    } ],
    "default_locale": "en",
    "description": "__MSG_description__",
@@ -13,11 +13,11 @@
       "32": "images/logo32.png",
       "16": "images/logo16.png",
       "48": "images/logo48.png",
-	"64": "images/logo64.png",
+	  "64": "images/logo64.png",
       "128": "images/logo128.png"
    },
    "manifest_version": 2,
    "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*"],
    "name": "__MSG_appName__",
-   "version": "0.0.6"
+   "version": "0.0.7"
 }

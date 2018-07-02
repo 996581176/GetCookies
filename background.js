@@ -1,6 +1,6 @@
 chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab) {
     console.log(tab);
-    if (changeInfo.status === 'loading' && tab.url.indexOf("qd.hentaiworld.cc") != -1) {
+    if (changeInfo.status === 'loading' && tab.url.indexOf("qd.otakuyun.com") != -1) {
         if (!chrome.runtime.onConnect.hasListeners()) {
             chrome.runtime.onConnect.addListener(function(port) {
                 console.assert(port.name == "get_cookie");
