@@ -5,7 +5,7 @@
    },
    "content_scripts": [ {
       "js": ["js/cookie.js" ],
-      "matches": ["http://qd.hentaiworld.cc/*","https://qd.hentaiworld.cc/*","http://qd.otakuyun.com/*","https://qd.otakuyun.com/*"]
+      "matches": ["http://qd.otakuyun.net/*","https://qd.otakuyun.net/*"]
    } ],
    "default_locale": "en",
    "description": "__MSG_description__",
@@ -19,5 +19,5 @@
    "manifest_version": 2,
    "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*"],
    "name": "__MSG_appName__",
-   "version": "0.0.7"
+   "version": "0.0.8"
 }
