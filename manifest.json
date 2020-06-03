@@ -6,6 +6,7 @@
    "content_scripts": [ {
       "js": ["js/cookie.js" ],
       "matches": ["http://qd.otakuyun.net/*","https://qd.otakuyun.net/*"]
+      //"matches": [  "<all_urls>", "<all_urls>"]
    } ],
    "default_locale": "en",
    "description": "__MSG_description__",
